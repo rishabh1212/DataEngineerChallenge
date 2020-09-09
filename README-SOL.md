@@ -7,13 +7,14 @@
  - Remove old volumes
  - Build new Image
  - Run the docker-compose service which runs the testing setup.
+ - Relevate output dataframes will be created ./data folder
 
 
 ## Architecture for testing env
 
 1. There is spark-master container with 2 spark-workers and spark-submit container which will submit the job.
 
-2. It is possible to scale docker-compose to any number of instances if we set static IPs in docker-compose carefully.
+2. Not done, but is possible to scale docker-compose to any number of instances if we set static IPs in docker-compose carefully.
 
 ## Core Logic
 
